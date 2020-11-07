@@ -3,7 +3,7 @@
 
 This project will pinpoint the weather factor that has the largest impact on the expected rating of wine. To determine this factor we will look into specific regions with multiple wineries, then delve into the historical weather of these regions. Specific factors will include rainfall, temperature, humidity, and wine ratings.
 
-Our sources include a historical weather API (http://history.openweathermap.org/data/2.5/history/) and a Wine Review file sourced from Kaggle (https://www.kaggle.com/zynicide/wine-reviews) that will be read as a CSV file.
+Our sources include a historical weather API (http://history.openweathermap.org/data/2.5/history/) and a Wine Review file sourced from Kaggle (https://www.kaggle.com/zynicide/wine-reviews) that will be read as a CSV file, as well as pulling from a Google places API to source our locations from.
 
 Null Hypothesis --- IF wind speeds, rainfall, temperature, and humidity are extreme THEN they will have no impact on the taste and grade of the wine.
 
